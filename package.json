@@ -10,10 +10,15 @@
     "dev": "node app.js"
   },
   "dependencies": {
+    "blueimp-md5": "^2.16.0",
     "dotenv": "^8.2.0",
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
-    "koa-router": "^9.1.0"
+    "koa-router": "^9.1.0",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
