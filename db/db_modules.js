@@ -1,3 +1,3 @@
-const { UserModel } = require('./db_user')
+const UserModel = require('./db_user')
 
 exports.UserModel = UserModel
