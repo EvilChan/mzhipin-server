@@ -5,5 +5,11 @@
   "repository": "git@github.com:CoderAlchemy/mzhipin-server.git",
   "author": "CoderAlchemy <1395822743@qq.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.0"
+  }
 }
