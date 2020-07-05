@@ -4,7 +4,7 @@
 >
 > Node + mongodb
 
-> 项目下载（推荐使用yarn）
+> 项目下载（推荐使用 yarn）
 
 ```
 git clone https://github.com/CoderAlchemy/mzhipin-server.git
