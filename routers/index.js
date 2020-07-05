@@ -23,4 +23,13 @@ router.post('/register', async (ctx, next) => {
   }
 })
 
+router.post('/login', async (ctx, next) => {
+  try {
+    const { username, password } = ctx.request.body
+    ctx.body = formatData(0, { username, password })
+  } catch (err) {
+    ctx.body = formatData(1, '服务器错误')
+  }
+})
+
 exports.router = router
