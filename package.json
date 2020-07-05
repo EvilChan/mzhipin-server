@@ -1,0 +1,9 @@
+{
+  "name": "mzhipin-server",
+  "version": "0.0.1",
+  "main": "app.js",
+  "repository": "git@github.com:CoderAlchemy/mzhipin-server.git",
+  "author": "CoderAlchemy <1395822743@qq.com>",
+  "license": "MIT",
+  "private": true
+}
