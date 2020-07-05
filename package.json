@@ -12,6 +12,8 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
     "koa-router": "^9.1.0"
   }
 }
