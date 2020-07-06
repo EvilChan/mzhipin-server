@@ -190,12 +190,17 @@
    >
    > ```json
    > {
-   >     "code": "0",
-   >     "data": {
-   >         "_id": "5496064168",
-   >         "username": "zhangsan",
-   >         "type": "dashen"
-   >     }
+   >  "code": "0",
+   >  "data": {
+   >      "header": "5496064168",
+   >      "info": "zhangsan",
+   >      "post": "dashen",
+   >      "company": "sad",
+   >      "salary": "12K",
+   >      "_id": "32rf3r2",
+   >      "username": "laoban1",
+   >      "type": "laoban"
+   >  }
    > }
    > ```
    >
@@ -203,7 +208,7 @@
    >
    > ```json
    > {
-   >     "code": "1",
-   >     "msg": "数据错误"
+   >  "code": "1",
+   >  "msg": "数据错误"
    > }
    > ```
