@@ -99,4 +99,15 @@ router.get('/user', async (ctx) => {
   }
 })
 
+router.get('/userlist', async (ctx) => {
+  try {
+    const { type } = ctx.query
+    const users = await UserModel.find({ type }, filter)
+    ctx.body = formatData(0, users)
+  } catch (err) {
+    ctx.body = formatData(1, '服务器错误')
+    console.error(err)
+  }
+})
+
 exports.router = router

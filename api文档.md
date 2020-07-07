@@ -258,3 +258,64 @@
    >   "msg": "数据错误"
    > }
    > ```
+
+## 获取用户列表
+
+1. 请求接口
+
+   > http://localhost:4000/api/userlist
+
+2. 请求方式
+
+   > GET
+
+3. 请求参数
+
+   > <table>
+   >     <tr>
+   >         <th>请求参数</th>
+   >         <th>是否必选</th>
+   >         <th>请求类型</th>
+   >         <th>说明</th>
+   >     </tr>
+   >     <tr>
+   >         <td>type</td>
+   >         <td>Y</td>
+   >         <td>string</td>
+   >         <td>类型(dashen/laoban)</td>
+   >     </tr>
+   > </table>
+
+4. 请求数据格式
+
+   > query
+
+5. 响应格式
+
+   > 请求成功
+   >
+   > ```json
+   > {
+   >     "code": "0",
+   >     "data": {
+   >         "header": "5496064168",
+   >         "info": "zhangsan",
+   >         "post": "dashen",
+   >         "company": "sad",
+   >         "salary": "12K",
+   >         "_id": "32rf3r2",
+   >         "username": "laoban1",
+   >         "type": "laoban"
+   >     }
+   > }
+   > ```
+   >
+   > 请求失败
+   >
+   > ```json
+   > {
+   > "code": "1",
+   > "msg": "数据错误"
+   > }
+   > ```
+
