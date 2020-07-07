@@ -49,12 +49,12 @@
    >
    > ```json
    > {
-   >        "code": "0",
-   >        "data": {
-   >            "_id": "5496064168",
-   >            "username": "zhangsan",
-   >            "type": "dashen"
-   >        }
+   >   "code": "0",
+   >   "data": {
+   >     "_id": "5496064168",
+   >     "username": "zhangsan",
+   >     "type": "dashen"
+   >   }
    > }
    > ```
    >
@@ -62,11 +62,10 @@
    >
    > ```json
    > {
-   >        "code": "1",
-   >        "msg": "数据错误"
+   >   "code": "1",
+   >   "msg": "数据错误"
    > }
    > ```
-   >
 
 ## 用户登陆
 
@@ -111,12 +110,12 @@
    >
    > ```json
    > {
-   >     "code": "0",
-   >     "data": {
-   >         "_id": "5496064168",
-   >         "username": "zhangsan",
-   >         "type": "dashen"
-   >     }
+   >   "code": "0",
+   >   "data": {
+   >     "_id": "5496064168",
+   >     "username": "zhangsan",
+   >     "type": "dashen"
+   >   }
    > }
    > ```
    >
@@ -124,8 +123,8 @@
    >
    > ```json
    > {
-   >     "code": "1",
-   >     "msg": "数据错误"
+   >   "code": "1",
+   >   "msg": "数据错误"
    > }
    > ```
 
@@ -190,17 +189,17 @@
    >
    > ```json
    > {
-   >  "code": "0",
-   >  "data": {
-   >      "header": "5496064168",
-   >      "info": "zhangsan",
-   >      "post": "dashen",
-   >      "company": "sad",
-   >      "salary": "12K",
-   >      "_id": "32rf3r2",
-   >      "username": "laoban1",
-   >      "type": "laoban"
-   >  }
+   >   "code": "0",
+   >   "data": {
+   >     "header": "5496064168",
+   >     "info": "zhangsan",
+   >     "post": "dashen",
+   >     "company": "sad",
+   >     "salary": "12K",
+   >     "_id": "32rf3r2",
+   >     "username": "laoban1",
+   >     "type": "laoban"
+   >   }
    > }
    > ```
    >
@@ -208,7 +207,54 @@
    >
    > ```json
    > {
-   >  "code": "1",
-   >  "msg": "数据错误"
+   >   "code": "1",
+   >   "msg": "数据错误"
+   > }
+   > ```
+
+## 获取当前的 user（根据 cookie）
+
+1. 请求接口
+
+   > http://localhost:4000/api/user
+
+2. 请求方式
+
+   > GET
+
+3. 请求参数
+
+   > 无
+
+4. 请求数据格式
+
+   > 无
+
+5. 响应格式
+
+   > 请求成功
+   >
+   > ```json
+   > {
+   >   "code": "0",
+   >   "data": {
+   >     "header": "5496064168",
+   >     "info": "zhangsan",
+   >     "post": "dashen",
+   >     "company": "sad",
+   >     "salary": "12K",
+   >     "_id": "32rf3r2",
+   >     "username": "laoban1",
+   >     "type": "laoban"
+   >   }
+   > }
+   > ```
+   >
+   > 请求失败
+   >
+   > ```json
+   > {
+   >   "code": "1",
+   >   "msg": "数据错误"
    > }
    > ```
