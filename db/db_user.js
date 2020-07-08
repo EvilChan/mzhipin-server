@@ -1,7 +1,6 @@
 const { mongoose } = require('./db_conn')
-const Schema = mongoose.Schema
 
-const userSchema = new Schema({
+const userSchema = mongoose.Schema({
   username: { type: String, required: true },
   password: { type: String, required: true },
   type: { type: String, required: true },

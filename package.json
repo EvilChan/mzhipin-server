@@ -16,7 +16,8 @@
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
     "koa-router": "^9.1.0",
-    "mongoose": "^5.9.21"
+    "mongoose": "^5.9.21",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

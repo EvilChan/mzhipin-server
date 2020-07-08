@@ -49,12 +49,12 @@
    >
    > ```json
    > {
-   >   "code": "0",
-   >   "data": {
-   >     "_id": "5496064168",
-   >     "username": "zhangsan",
-   >     "type": "dashen"
-   >   }
+   >       "code": "0",
+   >       "data": {
+   >            "_id": "5496064168",
+   >            "username": "zhangsan",
+   >            "type": "dashen"
+   >       }
    > }
    > ```
    >
@@ -62,8 +62,8 @@
    >
    > ```json
    > {
-   >   "code": "1",
-   >   "msg": "数据错误"
+   >       "code": "1",
+   >       "msg": "数据错误"
    > }
    > ```
 
@@ -319,3 +319,111 @@
    > }
    > ```
 
+## 获取当前用户的聊天消息列表
+
+1. 请求接口
+
+   > http://localhost:4000/api/msglist
+
+2. 请求方式
+
+   > GET
+
+3. 请求参数
+
+   > 无
+
+4. 请求数据格式
+
+   > 无
+
+5. 响应格式
+
+   > 请求成功
+   >
+   > ```json
+   > {
+   >     "code": "0",
+   >     "data": {
+   >         "users": {
+   >             "345125354123544": {
+   >                 "username": "ds2"
+   >             },
+   >             "345135215412254": {
+   >                 "username": "ds3"
+   >             }
+   >         },
+   >         "chatMsgs": [
+   >             {
+   >                 "read": false,
+   >                 "_id": "efgwstgwe",
+   >                 "from": "ewfgvwetgfre",
+   >                 "to": "etgwgrrge",
+   >                 "content": "aa",
+   >                 "create_time": 124312,
+   >                 "__v": 0
+   >             }
+   >         ]
+   >     }
+   > }
+   > ```
+   >
+   > 请求失败
+   >
+   > ```json
+   > {
+   >     "code": "1",
+   >     "msg": "数据错误"
+   > }
+   > ```
+
+## 修改指定消息为已读
+
+1. 请求接口
+
+   > http://localhost:4000/api/readmsg
+
+2. 请求方式
+
+   > POST
+
+3. 请求参数
+
+   > <table>
+   >  <tr>
+   >      <th>请求参数</th>
+   >      <th>是否必选</th>
+   >      <th>请求类型</th>
+   >      <th>说明</th>
+   >  </tr>
+   >  <tr>
+   >      <td>from</td>
+   >      <td>Y</td>
+   >      <td>string</td>
+   >      <td>发送消息用户的id</td>
+   >  </tr>
+   > </table>
+
+4. 请求数据格式
+
+   > x-www-form-urlencoded
+
+5. 响应格式
+
+   > 请求成功
+   >
+   > ```json
+   > {
+   >     "code": 0,
+   >     "data": 1
+   > }
+   > ```
+   >
+   > 请求失败
+   >
+   > ```json
+   > {
+   >     "code": "1",
+   >     "msg": "数据错误"
+   > }
+   > ```
