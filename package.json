@@ -1,13 +1,21 @@
 {
   "name": "mzhipin-server",
-  "version": "0.0.1",
-  "main": "app.js",
-  "repository": "git@github.com:CoderAlchemy/mzhipin-server.git",
-  "author": "CoderAlchemy <1395822743@qq.com>",
-  "license": "MIT",
-  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderAlchemy/mzhipin-server.git"
+  },
+  "author": "CoderAlchemy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoderAlchemy/mzhipin-server/issues"
+  },
+  "homepage": "https://github.com/CoderAlchemy/mzhipin-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   },
   "dependencies": {
     "blueimp-md5": "^2.16.0",
@@ -16,10 +24,7 @@
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
     "koa-router": "^9.1.0",
-    "mongoose": "^5.9.21",
+    "mongoose": "^5.9.23",
     "socket.io": "^2.3.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
   }
 }
