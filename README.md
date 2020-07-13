@@ -1,15 +1,17 @@
-# 码者直聘 - 后台
+# Vue 全栈项目 - 码者直聘（后端）
 
 > 运行环境
 >
 > Node + mongodb
 
-> 项目下载（推荐使用yarn）
+> 项目下载
 
 ```
 git clone https://github.com/CoderAlchemy/mzhipin-server.git
 cd mzhipin-server
-yarn | npm install
-yarn dev | npm run dev
+npm install
+npm run dev
 ```
+
+> [前端项目传送门](http://github.com/CoderAlchemy/mzhipin-client.git)
 
