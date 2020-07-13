@@ -1,4 +1,4 @@
-# React 全栈项目 - 码者直聘（后端）
+# Vue 全栈项目 - 码者直聘（后端）
 
 > 运行环境
 >
@@ -14,3 +14,4 @@ npm run dev
 ```
 
 > [前端项目传送门](http://github.com/CoderAlchemy/mzhipin-client.git)
+
