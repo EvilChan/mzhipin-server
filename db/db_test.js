@@ -30,13 +30,13 @@
 // })
 
 // const UserModel = mongoose.model('user', userSchema)
-
+const md5 = require('blueimp-md5')
 const { UserModel } = require('./db_modules')
 
 const testSave = () => {
   const userModel = new UserModel({
-    username: 'Bob',
-    password: '234',
+    username: 'dashen',
+    password: md5('123'),
     type: 'dashen'
   })
   userModel.save((err, product) => {
@@ -56,19 +56,19 @@ const testFind = () => {
   })
 }
 
-testFind()
+// testFind()
 
 const testUpdate = () => {
   UserModel.updateOne(
-    { _id: '5f006904aa05250cf4b231a7' },
-    { username: 'Jack1' },
+    { _id: '5f0a8ea992d1413b44f30ec6' },
+    { password: md5('123') },
     (err, raw) => {
       console.log('update()', err, raw)
     }
   )
 }
 
-// testUpdate()
+testUpdate()
 
 const testDelete = () => {
   // UserModel.findOneAndRemove(

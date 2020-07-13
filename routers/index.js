@@ -1,9 +1,7 @@
 const Router = require('koa-router')
 const md5 = require('blueimp-md5')
 
-const router = new Router({
-  prefix: '/api'
-})
+const router = new Router()
 
 const { UserModel, ChatModel } = require('../db/db_modules')
 

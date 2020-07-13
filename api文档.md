@@ -4,7 +4,7 @@
 
 1. 请求接口
 
-   > http://localhost:4000/api/register
+   > http://localhost:4000/register
 
 2. 请求方式
 
@@ -49,12 +49,12 @@
    >
    > ```json
    > {
-   >       "code": "0",
-   >       "data": {
+   >        "code": "0",
+   >        "data": {
    >            "_id": "5496064168",
    >            "username": "zhangsan",
    >            "type": "dashen"
-   >       }
+   >        }
    > }
    > ```
    >
@@ -62,8 +62,8 @@
    >
    > ```json
    > {
-   >       "code": "1",
-   >       "msg": "数据错误"
+   >        "code": "1",
+   >        "msg": "数据错误"
    > }
    > ```
 
@@ -71,7 +71,7 @@
 
 1. 请求接口
 
-   > http://localhost:4000/api/login
+   > http://localhost:4000/login
 
 2. 请求方式
 
@@ -110,12 +110,12 @@
    >
    > ```json
    > {
-   >   "code": "0",
-   >   "data": {
-   >     "_id": "5496064168",
-   >     "username": "zhangsan",
-   >     "type": "dashen"
-   >   }
+   >       "code": "0",
+   >       "data": {
+   >            "_id": "5496064168",
+   >            "username": "zhangsan",
+   >            "type": "dashen"
+   >       }
    > }
    > ```
    >
@@ -123,8 +123,8 @@
    >
    > ```json
    > {
-   >   "code": "1",
-   >   "msg": "数据错误"
+   >       "code": "1",
+   >       "msg": "数据错误"
    > }
    > ```
 
@@ -132,7 +132,7 @@
 
 1. 请求接口
 
-   > http://localhost:4000/api/update
+   > http://localhost:4000/update
 
 2. 请求方式
 
@@ -189,17 +189,17 @@
    >
    > ```json
    > {
-   >   "code": "0",
-   >   "data": {
-   >     "header": "5496064168",
-   >     "info": "zhangsan",
-   >     "post": "dashen",
-   >     "company": "sad",
-   >     "salary": "12K",
-   >     "_id": "32rf3r2",
-   >     "username": "laoban1",
-   >     "type": "laoban"
-   >   }
+   >       "code": "0",
+   >       "data": {
+   >            "header": "5496064168",
+   >            "info": "zhangsan",
+   >            "post": "dashen",
+   >            "company": "sad",
+   >            "salary": "12K",
+   >            "_id": "32rf3r2",
+   >            "username": "laoban1",
+   >            "type": "laoban"
+   >       }
    > }
    > ```
    >
@@ -207,8 +207,8 @@
    >
    > ```json
    > {
-   >   "code": "1",
-   >   "msg": "数据错误"
+   >       "code": "1",
+   >       "msg": "数据错误"
    > }
    > ```
 
@@ -216,7 +216,7 @@
 
 1. 请求接口
 
-   > http://localhost:4000/api/user
+   > http://localhost:4000/user
 
 2. 请求方式
 
@@ -236,17 +236,17 @@
    >
    > ```json
    > {
-   >   "code": "0",
-   >   "data": {
-   >     "header": "5496064168",
-   >     "info": "zhangsan",
-   >     "post": "dashen",
-   >     "company": "sad",
-   >     "salary": "12K",
-   >     "_id": "32rf3r2",
-   >     "username": "laoban1",
-   >     "type": "laoban"
-   >   }
+   >       "code": "0",
+   >       "data": {
+   >            "header": "5496064168",
+   >            "info": "zhangsan",
+   >            "post": "dashen",
+   >            "company": "sad",
+   >            "salary": "12K",
+   >            "_id": "32rf3r2",
+   >            "username": "laoban1",
+   >            "type": "laoban"
+   >       }
    > }
    > ```
    >
@@ -254,8 +254,8 @@
    >
    > ```json
    > {
-   >   "code": "1",
-   >   "msg": "数据错误"
+   >       "code": "1",
+   >       "msg": "数据错误"
    > }
    > ```
 
@@ -263,7 +263,7 @@
 
 1. 请求接口
 
-   > http://localhost:4000/api/userlist
+   > http://localhost:4000/userlist
 
 2. 请求方式
 
@@ -296,17 +296,17 @@
    >
    > ```json
    > {
-   >     "code": "0",
-   >     "data": {
-   >         "header": "5496064168",
-   >         "info": "zhangsan",
-   >         "post": "dashen",
-   >         "company": "sad",
-   >         "salary": "12K",
-   >         "_id": "32rf3r2",
-   >         "username": "laoban1",
-   >         "type": "laoban"
-   >     }
+   >        "code": "0",
+   >        "data": {
+   >            "header": "5496064168",
+   >            "info": "zhangsan",
+   >            "post": "dashen",
+   >            "company": "sad",
+   >            "salary": "12K",
+   >            "_id": "32rf3r2",
+   >            "username": "laoban1",
+   >            "type": "laoban"
+   >        }
    > }
    > ```
    >
@@ -314,8 +314,8 @@
    >
    > ```json
    > {
-   > "code": "1",
-   > "msg": "数据错误"
+   >     "code": "1",
+   >     "msg": "数据错误"
    > }
    > ```
 
@@ -323,7 +323,7 @@
 
 1. 请求接口
 
-   > http://localhost:4000/api/msglist
+   > http://localhost:4000/msglist
 
 2. 请求方式
 
@@ -343,28 +343,28 @@
    >
    > ```json
    > {
-   >     "code": "0",
-   >     "data": {
-   >         "users": {
-   >             "345125354123544": {
-   >                 "username": "ds2"
-   >             },
-   >             "345135215412254": {
-   >                 "username": "ds3"
-   >             }
-   >         },
-   >         "chatMsgs": [
-   >             {
-   >                 "read": false,
-   >                 "_id": "efgwstgwe",
-   >                 "from": "ewfgvwetgfre",
-   >                 "to": "etgwgrrge",
-   >                 "content": "aa",
-   >                 "create_time": 124312,
-   >                 "__v": 0
-   >             }
-   >         ]
-   >     }
+   >        "code": "0",
+   >        "data": {
+   >            "users": {
+   >                "345125354123544": {
+   >                    "username": "ds2"
+   >                },
+   >                "345135215412254": {
+   >                    "username": "ds3"
+   >                }
+   >            },
+   >            "chatMsgs": [
+   >                {
+   >                    "read": false,
+   >                    "_id": "efgwstgwe",
+   >                    "from": "ewfgvwetgfre",
+   >                    "to": "etgwgrrge",
+   >                    "content": "aa",
+   >                    "create_time": 124312,
+   >                    "__v": 0
+   >                }
+   >            ]
+   >        }
    > }
    > ```
    >
@@ -372,8 +372,8 @@
    >
    > ```json
    > {
-   >     "code": "1",
-   >     "msg": "数据错误"
+   >        "code": "1",
+   >        "msg": "数据错误"
    > }
    > ```
 
@@ -381,7 +381,7 @@
 
 1. 请求接口
 
-   > http://localhost:4000/api/readmsg
+   > http://localhost:4000/readmsg
 
 2. 请求方式
 
@@ -414,8 +414,8 @@
    >
    > ```json
    > {
-   >     "code": 0,
-   >     "data": 1
+   >        "code": 0,
+   >        "data": 1
    > }
    > ```
    >
@@ -423,7 +423,7 @@
    >
    > ```json
    > {
-   >     "code": "1",
-   >     "msg": "数据错误"
+   >        "code": "1",
+   >        "msg": "数据错误"
    > }
    > ```
