@@ -1,4 +1,4 @@
-require('dotenv').config()
+const { PORT, HOST } = require('./package.json').env
 const Koa = require('koa')
 const bodyParser = require('koa-bodyparser')
 const json = require('koa-json')
@@ -9,9 +9,6 @@ const server = require('http').createServer(app.callback())
 require('./socketIO/socketIO_server')(server)
 
 const { router } = require('./routers')
-
-const PORT = process.env.PORT
-const HOST = process.env.HOST
 
 app.use(json())
 

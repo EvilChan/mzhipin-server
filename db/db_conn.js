@@ -1,7 +1,7 @@
-require('dotenv').config()
+const { DB_URL } = require('../package.json').env
 const mongoose = require('mongoose')
 
-mongoose.connect(process.env.DB_URL, {
+mongoose.connect(DB_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
