@@ -4,7 +4,7 @@
 >
 > Node + mongodb
 
-> 项目下载
+> 项目下载（嫌慢的github换gitee）
 
 ```
 git clone https://github.com/CoderAlchemy/mzhipin-server.git
@@ -13,5 +13,5 @@ npm install
 npm run dev
 ```
 
-> [前端项目传送门](http://github.com/CoderAlchemy/mzhipin-client.git)
+> 前端项目传送门：http://github.com/CoderAlchemy/mzhipin-client.git
 
