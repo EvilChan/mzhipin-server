@@ -2,7 +2,8 @@
   "name": "mzhipin-server",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
